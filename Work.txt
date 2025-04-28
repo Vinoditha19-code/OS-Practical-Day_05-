@@ -1,0 +1,53 @@
+echo "Who are you?"
+read name
+
+echo "Enter Number 01"
+read x
+
+echo "Enter number 02"
+read y
+
+echo "Enter number 03"
+read z
+
+sum = $(($x + $y + $z))
+avg = $ (($sum/3))
+
+echo "Hi"  $name
+echo "summation" $sum
+echo "Average " $avg
+
+::answers
+login as: 2021ict73
+2021ict73@172.16.140.150's password:
+Last login: Mon Mar 24 11:48:31 2025 from 172.16.140.67
+[2021ict73@fedora ~]$ echo "Who are You?"
+Who are You?
+[2021ict73@fedora ~]$ read name
+Vino
+[2021ict73@fedora ~]$ echo "Enter Number 01"
+Enter Number 01
+[2021ict73@fedora ~]$ read x
+10
+[2021ict73@fedora ~]$ echo "Enter number 02"
+Enter number 02
+[2021ict73@fedora ~]$ read y
+12
+[2021ict73@fedora ~]$ echo "Enter number 03"
+Enter number 03
+[2021ict73@fedora ~]$ 19
+bash: 19: command not found...
+[2021ict73@fedora ~]$ read z
+19
+[2021ict73@fedora ~]$ sum=$(($x+$y+$z))
+[2021ict73@fedora ~]$ avg=$(($sum/3))
+[2021ict73@fedora ~]$ echo "Hi" $name
+Hi Vino
+[2021ict73@fedora ~]$ echo "summation" $sum
+summation 41
+[2021ict73@fedora ~]$ echo "Average" $avg
+Average 13
+
+
+::Exersice 
+read to numbers from user and print addition , substraction, multiplication & division

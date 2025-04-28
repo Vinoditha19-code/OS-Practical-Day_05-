@@ -1,0 +1,46 @@
+Prints the current directory path: pwd
+
+Lists all files, including hidden ones (.hidden_file):  ls -a
+
+Lists files with: ls -ltr
+        -l: long format (permissions, size, date, etc.)
+       -t: sorted by time (most recent last)
+       -r: reverse order (so oldest first)
+	   
+Shows the calendar for the current month. :  cal	   
+
+Displays the day of the month : date +%d
+
+Shows Current week of year : date + %U [Return week number ]
+ 
+Shows the full weekday name:  date +%A
+ 
+Shows the short weekday name : date +%a
+ 
+Full month name (e.g., April). : date +%B
+ 
+Short month name (e.g., Apr) : date +%b
+ 
+4-digit year (e.g., 2025) :  date +%Y
+ 
+2-digit year (e.g., 25) : date +%y
+ 
+Month number (e.g., 04) : date +%m
+ 
+Minutes (e.g., 09) : date +%M
+
+
+vi file.sh
+ Opens a new or existing shell script file named file.sh in the vi editor for editing.
+ 
+ls
+ Lists the files in the current directory — useful to confirm that prgrm1.sh exists.
+ 
+chmod 777 prgrm1.sh
+ Giving permision 
+ 
+.prgrm1.sh
+ Gives full permissions (read, write, execute) to everyone (owner, group, others).
+ 
+./prgrm1.sh
+ Executes the script from the current directory
