@@ -31,7 +31,10 @@ chmod 777 prgrm1.sh: Grants full permissions (read, write, execute) to all users
 
 
 ![Screenshot (9)](https://github.com/user-attachments/assets/fa691423-769a-4fec-aa4c-952932269e26)
-![Screenshot (8) (2)](https://github.com/user-attachments/assets/eaec50cb-3b33-4809-a18f-84867db9404a)
+![Screenshot 2025-04-28 231623](https://github.com/user-attachments/assets/c80ec7ac-4efa-4623-94c5-48c4fd32b4cc)
+![Screenshot 2025-04-28 231421](https://github.com/user-attachments/assets/ccb77398-3a7f-46f5-9f3d-b0b368fdf911)
+![Screenshot (1043)](https://github.com/user-attachments/assets/018d6712-16b7-475d-b9ac-5cc35fc22c37)
+
 
 
 
